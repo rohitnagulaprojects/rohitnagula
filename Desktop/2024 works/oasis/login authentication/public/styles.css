@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.portfolio-container {
+    display: flex;
+}
+
+.navlist {
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.left-container,
+.right-container {
+    height: 100vh;
+    display: flex;
+}
+
+.left-container {
+    background: #262525;
+    width: 70%;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+.right-container {
+    background: linear-gradient(-45deg, #5db9ee, #262525 70%);
+    width: 30%;
+}
+
+
+
+.icons a {
+    color: #bbb;
+    font-size: 1.7rem;
+    text-decoration: none; /* Remove underlines from the links */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.icons a:hover {
+    color: #5db9ee; /* Change color on hover */
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem; /* Adjusted the gap for better spacing */
+    height: 100vh;
+}
+
+.content{
+    margin-left: 4rem;
+}
+
+.content .intro{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.content .intro span{
+    color: #5db9ee;
+}
+
+.content h1{
+    font-size: 4rem;
+    color: #5db9ee;
+}
+
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+}
+
+.btn-container button {
+    border: 0.1rem solid #5db9ee;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem; /* Corrected the padding values */
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    gap: 3rem;
+}
+
+button:nth-child(1) {
+    background-color: #5db9ee;
+    color: #262525; /* Added text color for better visibility */
+}
+
+button:nth-child(2) {
+    background-color: transparent;
+    margin-left: 2rem;
+    color: #5db9ee;
+}
+
+button:nth-child(1):hover {
+    background-color: transparent;
+    color: #5db9ee;
+}
+
+button:nth-child(2):hover {
+    background-color: #5db9ee;
+    color: #262525;
+}
+
+
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#fff, #5db9ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.circle:nth-child(1){
+    background: linear-gradient(90deg, transparent 50%, #262525 50%);
+    width: 38rem;
+}
+
+.circle:nth-child(2){
+    width: 30rem;
+    background-image: url("/IMG_5690.JPG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 0.1rem solid white;
+    /* border-image: FILL 0 linear-gradient(#0001, #000); -->*/
+    box-shadow:
+     0 0 1rem #fff,
+     inset 0 0 1rem #fff,
+     0 0 2rem #5db9ee,
+     inset 0 0 2rem #5db9ee,
+     0 0 4rem #5db9ee,
+     inset 0 0 4rem #5db9ee;
+
+}
+
+.left-container-about{
+    background: #262525;
+    width: 70%;
+    padding-left: 3rem;
+    align-items: center;
+
+}
+
+.right-container-about{
+    background: linear-gradient(-45deg, #5db9ee, #262525 70%);
+    width: 30%;
+}
+
+.left-container-about,
+.right-container-about {
+    height: 100vh;
+    display: flex;
+}
+
+.left-container-about p{
+    color: white;
+}
+
+.left-container-about .content span{
+    color: #5db9ee;
+}
+
+.content1{
+    margin-left: 4rem;
+}
+.content1 .intro{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.content1 .intro span{
+    color: #5db9ee;
+}
+
+.content1 h1{
+    font-size: 1rem;
+    color: #5db9ee;
+}
+
+.content1 .detail{
+    font-size: 1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+}
